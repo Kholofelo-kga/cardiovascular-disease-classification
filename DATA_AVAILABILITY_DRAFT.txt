@@ -1,0 +1,5 @@
+Use only after the repository has been uploaded and verified. Replace the bracketed text with the actual public repository URL and archived release DOI.
+
+The study used publicly available datasets. The HDC dataset is available from Mendeley Data (version 2; doi:10.17632/65gxgy2nmg.2), and the Cleveland dataset is available from the UCI Heart Disease repository (https://archive.ics.uci.edu/dataset/45/heart+disease). The analysis code, training/test split assignments, preprocessing quality flags, and results underlying the reported analyses are available at [PUBLIC GITHUB REPOSITORY URL]. The publication release is archived at [ARCHIVE DOI].
+
+Do not include the archived-release sentence until the DOI exists. Finalise and verify the reproducible code release before submitting this statement.

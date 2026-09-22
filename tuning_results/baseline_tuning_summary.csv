@@ -1,0 +1,9 @@
+Dataset,Model,Method,Best parameters,roc_auc_mean,accuracy_mean,balanced_accuracy_mean,precision_mean,recall_mean,f1_mean
+HDC,Gradient Boosting,No balancing,"{'model__learning_rate': 0.05, 'model__max_depth': 2, 'model__n_estimators': 200}",0.9971104086910477,0.9876777251184834,0.9885741734578943,0.9953603948458489,0.9845557543231962,0.9899008977882244
+HDC,XGBoost,No balancing,"{'model__learning_rate': 0.05, 'model__max_depth': 2, 'model__n_estimators': 200}",0.9972117694144542,0.9867298578199051,0.9882643167914485,0.9968871124031008,0.9814669051878354,0.9890983154181858
+HDC,CatBoost,No balancing,"{'model__depth': 6, 'model__iterations': 100, 'model__learning_rate': 0.1}",0.9969076172176947,0.9857819905213269,0.9856698119356467,0.9906967425608819,0.9860942158616577,0.9883746207254358
+HDC,Extra Trees,No balancing,"{'model__max_features': 1.0, 'model__min_samples_leaf': 1, 'model__n_estimators': 100}",0.9961214184791422,0.9876777251184834,0.9885832661347882,0.9953234808554466,0.9845438282647585,0.9898766718816455
+Cleveland,Gradient Boosting,No balancing,"{'model__learning_rate': 0.05, 'model__max_depth': 3, 'model__n_estimators': 100}",0.8747013051360877,0.7934523809523809,0.7922694053128836,0.7707729468599035,0.7833992094861661,0.7749388426354199
+Cleveland,XGBoost,No balancing,"{'model__learning_rate': 0.05, 'model__max_depth': 2, 'model__n_estimators': 100}",0.886475682127856,0.8056972789115646,0.8027684875510962,0.8004929023504875,0.773913043478261,0.7827788584015881
+Cleveland,CatBoost,No balancing,"{'model__depth': 4, 'model__iterations': 100, 'model__learning_rate': 0.05}",0.8852780874520004,0.8056972789115646,0.8012826143260925,0.8179210526315789,0.7561264822134388,0.7812283226624356
+Cleveland,Extra Trees,No balancing,"{'model__max_features': 'sqrt', 'model__min_samples_leaf': 2, 'model__n_estimators': 100}",0.9017358647793431,0.8139455782312925,0.8120570251005035,0.8021601830663615,0.7924901185770751,0.7953980323204843
